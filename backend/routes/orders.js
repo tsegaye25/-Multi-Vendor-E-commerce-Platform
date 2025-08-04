@@ -3,7 +3,9 @@ const { body, validationResult, query } = require('express-validator');
 const Order = require('../models/Order');
 const Product = require('../models/Product');
 const Vendor = require('../models/Vendor');
+const User = require('../models/User');
 const { protect, authorize, vendorOwnership } = require('../middleware/auth');
+const emailService = require('../services/emailService');
 
 const router = express.Router();
 
