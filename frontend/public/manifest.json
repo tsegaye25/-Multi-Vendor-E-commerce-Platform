@@ -1,0 +1,20 @@
+{
+  "short_name": "MarketPlace",
+  "name": "Multi-Vendor E-commerce Platform",
+  "description": "A comprehensive multi-vendor e-commerce marketplace",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#570df8",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["shopping", "business"],
+  "lang": "en",
+  "dir": "ltr"
+}
